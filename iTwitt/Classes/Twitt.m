@@ -8,7 +8,6 @@
 
 #import "Twitt.h"
 #import "JSON/JSON.h"
-#import "NSData+Base64.h"
 
 
 @implementation Twitt

@@ -25,7 +25,6 @@
 		CE5F18D710AA67D900896637 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F18CF10AA67D900896637 /* SBJsonBase.m */; };
 		CE5F18D810AA67D900896637 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F18D110AA67D900896637 /* SBJsonParser.m */; };
 		CE5F18D910AA67D900896637 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F18D310AA67D900896637 /* SBJsonWriter.m */; };
-		CE5F18EA10AA6D5D00896637 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F18E910AA6D5D00896637 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,8 +60,6 @@
 		CE5F18D110AA67D900896637 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		CE5F18D210AA67D900896637 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		CE5F18D310AA67D900896637 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		CE5F18E810AA6D5D00896637 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		CE5F18E910AA6D5D00896637 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +88,6 @@
 				CE5F187110AA52BC00896637 /* PostTwittViewController.m */,
 				1D3623240D0F684500981E51 /* iTwittAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iTwittAppDelegate.m */,
-				CE5F18E810AA6D5D00896637 /* NSData+Base64.h */,
-				CE5F18E910AA6D5D00896637 /* NSData+Base64.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -242,7 +237,6 @@
 				CE5F18D710AA67D900896637 /* SBJsonBase.m in Sources */,
 				CE5F18D810AA67D900896637 /* SBJsonParser.m in Sources */,
 				CE5F18D910AA67D900896637 /* SBJsonWriter.m in Sources */,
-				CE5F18EA10AA6D5D00896637 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
