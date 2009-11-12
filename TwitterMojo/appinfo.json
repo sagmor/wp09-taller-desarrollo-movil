@@ -1,0 +1,9 @@
+{
+	"id": "com.sagmor.twittermojo",
+	"version": "1.0.0",
+	"vendor": "My Company",
+	"type": "web",
+	"main": "index.html",
+	"title": "Twitter Mojo",
+	"icon": "icon.png"
+}

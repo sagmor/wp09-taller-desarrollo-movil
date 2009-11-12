@@ -1,0 +1,19 @@
+/* Put Application specific CSS here. */
+#Twitts {
+  
+}
+
+#Twitts li {
+  border-bottom: 1px solid #999;
+  clear: both;
+  min-height: 55px;
+  margin-bottom: 2px;
+}
+
+#Twitts img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 2px;
+}
+
