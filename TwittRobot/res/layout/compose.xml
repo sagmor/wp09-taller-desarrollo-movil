@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:text="Username" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<EditText android:text="" android:id="@+id/username" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<TextView android:text="Password" android:id="@+id/TextView02" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<EditText android:text="" android:id="@+id/password" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<TextView android:text="Text" android:id="@+id/TextView03" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<EditText
+		android:text="" 
+		android:hint="What are you doing right now?"
+		android:layout_margin="12dp"
+		android:id="@+id/text" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" />
+
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:text="Cancel" android:id="@+id/Cancel" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Post" android:id="@+id/Post" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>
